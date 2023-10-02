@@ -1,0 +1,66 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.w-full {
+    width: 100vw;
+}
+
+.text-items-right {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+/* .h-50 {
+    height: 10vw;
+} */
+
+.h-30 {
+    height: 20vw;
+}
+
+.h-70 {
+    height: 70vw;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.button {
+    width: 10%;
+    aspect-ratio: 1;
+}
+
+.h-20 {
+    height: 20%
+}
+
+.w-12 {
+    width:50vw;
+}
+
+.pl-4 {
+    padding-left: 4px;
+}
+
+.pt-4 {
+    padding-top: 4px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.numpad-row {
+    margin: 10px
+}
