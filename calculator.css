@@ -8,10 +8,21 @@ body {
     width: 100vw;
 }
 
-.text-items-right {
+.text-items-right{
     display: flex;
     flex-direction: row-reverse;
-    gap: 10px;
+    align-items: end;
+}
+
+#key_pad {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.button-long {
+    grid-column-start: -5;
+    grid-column-end: -3;
 }
 
 /* .h-50 {
@@ -26,7 +37,7 @@ body {
     height: 70vw;
 }
 
-.flex-row {
+.bottom {
     display: flex;
     flex-direction: row;
 }
@@ -39,6 +50,7 @@ body {
     width: 10%;
     aspect-ratio: 1;
 }
+
 
 .h-20 {
     height: 20%
@@ -62,5 +74,7 @@ body {
 }
 
 .numpad-row {
-    margin: 10px
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
 }
